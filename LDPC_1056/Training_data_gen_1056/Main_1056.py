@@ -22,7 +22,7 @@ import data_generating as Data_gen
 # python main.py 1.5 3 16 1e4   wimax_1056_0.83.alist            
 #command line arguments
 
-#sys.argv = "3.0 3.6 16 4000 wimax_1056_0.83.alist".split()
+sys.argv = "python 3.2 3.8 16 4000 wimax_1056_0.83.alist".split()
 GL.set_map('snr_lo', float(sys.argv[1]))
 GL.set_map('snr_hi', float(sys.argv[2]))
 GL.set_map('batch_size', int(sys.argv[3]))
